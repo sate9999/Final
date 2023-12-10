@@ -32,6 +32,6 @@ def solution(letter):
     answer = ''.join(letters)
     return answer
 
-input_morse = ".- --. ."
+input_morse = "-.-. .- .-. .--. . -.. .. . --"
 result = solution(input_morse)
 print(result)
