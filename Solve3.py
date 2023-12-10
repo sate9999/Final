@@ -21,8 +21,8 @@ def solution(age):
         answer = ''
 
         for char in age_str:
-            digit = int(char)
-            planet_age = chr(ord('a') + digit)
+            slice = int(char)
+            planet_age = chr(ord('a') + slice)
             answer += planet_age
 
         return answer
